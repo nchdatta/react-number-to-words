@@ -1,0 +1,30 @@
+{
+  "name": "react-number-to-words",
+  "version": "1.0.0",
+  "description": "Converts amount to words.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  }, 
+  "keywords": [
+    "amount",
+    "word",
+    "convert",
+    "react",
+    "typescript"
+  ],
+  "author": "@nchdatta",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.60",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.12.0",
+    "tslib": "^2.6.2"
+  }
+}

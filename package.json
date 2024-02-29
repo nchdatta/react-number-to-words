@@ -1,6 +1,6 @@
 {
   "name": "react-number-to-words",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Converts number to words.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

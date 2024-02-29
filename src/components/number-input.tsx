@@ -36,4 +36,4 @@ const AmountInput: React.FC<AmountInputProps> = ({ onChange }) => {
     );
 };
 
-export default AmountInput;
+export { AmountInput };

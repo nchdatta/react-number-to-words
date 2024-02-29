@@ -13,4 +13,4 @@ const NumberDisplay: React.FC<NumberDisplayProps> = ({ number }) => (
     </div>
 );
 
-export default NumberDisplay;
+export { NumberDisplay };

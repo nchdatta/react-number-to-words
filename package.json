@@ -1,7 +1,7 @@
 {
   "name": "react-number-to-words",
   "version": "1.0.0",
-  "description": "Converts amount to words.",
+  "description": "Converts number to words.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -10,6 +10,7 @@
     "watch": "rollup -c -w"
   }, 
   "keywords": [
+    "number",
     "amount",
     "word",
     "convert",

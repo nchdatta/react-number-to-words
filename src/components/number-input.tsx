@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-interface AmountInputProps {
+interface NumberInputProps {
     onChange: (amount: number) => void;
 }
 
-const AmountInput: React.FC<AmountInputProps> = ({ onChange }) => {
+const NumberInput: React.FC<NumberInputProps> = ({ onChange }) => {
     const [value, setValue] = React.useState('');
 
     const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -36,4 +36,4 @@ const AmountInput: React.FC<AmountInputProps> = ({ onChange }) => {
     );
 };
 
-export { AmountInput };
+export { NumberInput };

@@ -3,7 +3,6 @@ import { convertToWords } from '../index';
 
 interface NumberDisplayProps {
     number: number;
-    words: string;
 }
 
 const NumberDisplay: React.FC<NumberDisplayProps> = ({ number }) => (

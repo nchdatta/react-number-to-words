@@ -1,7 +1,9 @@
 {
   "name": "react-number-to-words",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Converts number to words.",
+  "repository": "https://github.com/nchdatta/react-number-to-words.git",
+  "homepage": "https://github.com/nchdatta/react-number-to-words.git",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",

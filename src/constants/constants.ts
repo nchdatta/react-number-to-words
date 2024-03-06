@@ -1,0 +1,5 @@
+const MAX_SAFE_INTEGER: number = 9007199254740991;
+
+export {
+    MAX_SAFE_INTEGER,
+};

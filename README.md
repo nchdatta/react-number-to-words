@@ -35,6 +35,15 @@ import {NumberInput, NumberDisplay} from 'react-number-to-words';
 
 ```
 
+2. Call the toOrdinal function with a number as an argument:
+
+```bash
+const number = 123;
+const ordinal = toOrdinal(number);
+console.log(ordinal); // Output: "123th"
+
+```
+
 ## Features
 
 - Converts numbers up to trillions into words.
